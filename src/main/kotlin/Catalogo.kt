@@ -3,7 +3,7 @@ package org.pebiblioteca
 class Catalogo(
 ) {
     private var listaLibros = mutableListOf<Libro>()
-    fun agregarLibros(){
+    fun agregarLibro(){
         listaLibros.add(Libro)
     }
     fun eliminarLibros(){
@@ -12,4 +12,8 @@ class Catalogo(
     fun registrarPrestamo(){
 
     }
+    fun disponibleLibro(){
+
+    }
+
 }

@@ -7,10 +7,15 @@ class Libro(
     var anioPublicacion:Int,
     var estado:Estado = Estado.DISPONIBLE//(disponible o prestado).
 ) {
-    init{
+    init {
         uuid
         titulo.isNotBlank()
         autor.isNotBlank()
         anioPublicacion
+        estado
+    }
+
+    companion object {
+
     }
 }
